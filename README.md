@@ -1,6 +1,8 @@
 # QtQRDecoder
 Uses QZXing to decode QR Codes and display decoded QStrings in Qt applications.
 
+QZXing location: http://sourceforge.net/projects/qzxing/
+
 #Usage
 Inside the void QQrDecoder::on_decodeButton_clicked() method you pass the path to the QR code image and hit the Decode button
 The decoded QString is displayed in a QMessageBox.From there you can go on and implement your voo doo magic.
